@@ -1,0 +1,134 @@
+@media screen and (max-width: 480px) {
+} 
+@media screen and (max-width: 1024px) {
+}
+@media screen and (max-width: 1280px) {
+}
+
+/* Estilos gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  margin: auto;
+}
+
+/* Estilos do cabeçalho */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: auto;
+}
+
+header h1 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  margin: auto;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > h2 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.coluna p {
+  font-weight: bold;
+}
+
+hr {
+  padding: 1.3px;
+  border: none;
+  height: 2px;
+  background-color: #000;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos do conteúdo principal */
+main {
+  padding: 20px;
+}
+
+section {
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+section > h2 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+hr {
+  width: 100%;
+  padding-top: 5px;
+  height: 2px; 
+  background-color: #000; 
+  margin: auto; 
+}
+
+.destaque {
+  margin-bottom: 20px;
+  flex: 0 0 calc(25% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item {
+  margin-bottom: 20px;
+  flex: 0 0 calc(25% - 20px);
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.item img,
+.destaque img,
+.coluna img {
+  width: 300px; 
+  height: 300px;
+  object-fit: cover;
+}
+
+
+.adicionar-carrinho {
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Estilos do rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
